@@ -1,0 +1,20 @@
+14:43:27:600  INFO 44308 --- [main] com.hmall.HMallApplication               : Starting HMallApplication using Java 17.0.10 on DESKTOP-8DP7D3H with PID 44308 (E:\BaiduNetdiskDownload\资料\hmall\hm-service\target\classes started by Tom Smile in E:\BaiduNetdiskDownload\资料\hmall)
+14:43:27:601 DEBUG 44308 --- [main] com.hmall.HMallApplication               : Running with Spring Boot v2.7.12, Spring v5.3.27
+14:43:27:602  INFO 44308 --- [main] com.hmall.HMallApplication               : The following 1 profile is active: "dev"
+14:43:28:139  INFO 44308 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+14:43:28:145  INFO 44308 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+14:43:28:165  INFO 44308 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+14:43:28:598  INFO 44308 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+14:43:28:606  INFO 44308 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+14:43:28:606  INFO 44308 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+14:43:28:674  INFO 44308 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+14:43:28:675  INFO 44308 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1040 ms
+14:43:29:619  INFO 44308 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+14:43:29:887  INFO 44308 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+14:43:29:887  INFO 44308 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+14:43:29:889  INFO 44308 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+14:43:29:906  INFO 44308 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+14:43:30:004  INFO 44308 --- [main] com.hmall.HMallApplication               : Started HMallApplication in 2.712 seconds (JVM running for 3.197)
+14:44:43:227  INFO 44308 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:44:43:227  INFO 44308 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+14:44:43:228  INFO 44308 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
